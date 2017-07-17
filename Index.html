@@ -6,24 +6,39 @@
 <!--you cannot see what is inside the head -->
 <head>
     <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="Style.css" rel="stylesheet" />
     <!--important for google (big link) && helps for SEO && shows up on the tab in browser-->
     <title>Hello World!</title>
 </head>
 <!--what actually shows up on your page-->
 <body>
-    <h1>Hello World!</h1>
+    <!--<h1>Hello World!</h1>-->
     <!--<h2>Hello World</h2>
     <h3>Hello World</h3>
     <h4>Hello World</h4>
     <h5>Hello World</h5>
     <h6>Hello World</h6>-->
+    <style>
+        p{
+            font-size:30px;
+            text-align:center;
+        }
+        img{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            padding:25px;
+        }
+    </style>
     <br />
-    <p>This is a paragraph</p>
+    <!--<p>This is a paragraph</p>-->
     <!---->
-    <h1>Welcome to the Land</h1>
-    <h1>There's always next year...</h1>
-    <img src="Images/fuji.jpg" alt="Mount Fuji" title="Picture of Mount Fuji" />
-
+    <h1 id="firstHeading">Welcome to the Land</h1>
+    <h1 class="introText">There's always next year...</h1>
+    <img src="Images/fuji.jpg" alt="Mount Fuji" title="Picture of Mount Fuji" 
+         style="border-color:red; border-width:3px; border-style:solid"/>
+    <p class="introText">Hey there punk</p>
     <a href="http://www.google.com" target="_blank">Click Here</a>
 
     <table style="width:60%">
